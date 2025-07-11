@@ -20,14 +20,14 @@ const Header = () => {
             <a href='#home' className='hover:text-blue-200 transition'>
               Home
             </a>
-            <a href='#stores' className='hover:text-blue-200 transition'>
-              Stores
+            <a href='#races' className='hover:text-blue-200 transition'>
+              Races
             </a>
-            <a href='#services' className='hover:text-blue-200 transition'>
-              Services
+            <a href='#drivers' className='hover:text-blue-200 transition'>
+              Drivers
             </a>
-            <a href='#contact' className='hover:text-blue-200 transition'>
-              Contact
+            <a href='#teams' className='hover:text-blue-200 transition'>
+              Teams
             </a>
           </div>
           <button
@@ -59,25 +59,25 @@ const Header = () => {
             Home
           </a>
           <a
-            href='#stores'
+            href='#races'
             className='hover:text-blue-200 transition'
             onClick={() => setIsMenuOpen(false)}
           >
-            Stores
+            Races
           </a>
           <a
-            href='#services'
+            href='#drivers'
             className='hover:text-blue-200 transition'
             onClick={() => setIsMenuOpen(false)}
           >
-            Services
+            Drivers
           </a>
           <a
-            href='#contact'
+            href='#teams'
             className='hover:text-blue-200 transition'
             onClick={() => setIsMenuOpen(false)}
           >
-            Contact
+            Teams
           </a>
         </div>
       </div>
